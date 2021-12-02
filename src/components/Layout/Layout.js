@@ -17,6 +17,14 @@ const Layout = () => {
             <Header />
           </div>
           <div className={styles.content}>
+            {window.location.pathname === '/' && (
+              <h2>
+                go to route
+                <a href="/customers">'/customers'</a> or
+                <a href="/my-account">'/my-account'</a>
+                to see implemented pages.
+              </h2>
+            )}
             <Routes>
               <Route path="/customers" element={<Customers />} />
               <Route path="/my-account" element={<MyAccount />} />

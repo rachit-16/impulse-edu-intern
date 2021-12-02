@@ -1,6 +1,6 @@
-### USAGE
+# USAGE
 
-go to route '/customers' or '/my-account' to see implemented pages.
+## go to route '/customers' or '/my-account' to see implemented pages.
 
 # Getting Started with Create React App
 
