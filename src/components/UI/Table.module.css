@@ -1,0 +1,31 @@
+.Table {
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+}
+
+.table-head {
+  font-size: 14px;
+  color: #444;
+  text-align: left;
+  background-color: #f9f9f9;
+}
+
+.table-body {
+  font-size: 13px;
+  color: #444;
+}
+
+.table-row {
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.table-header,
+.table-data {
+  padding: 12px 20px;
+}
+
+.table-body .table-data:nth-child(1) {
+  color: #2b83ea;
+}

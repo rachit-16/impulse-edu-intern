@@ -1,0 +1,21 @@
+.MyAccount {
+  width: 100%;
+  height: auto;
+  padding: 40px 0 20px 0;
+  background-color: #f0f3f4;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 88%;
+  height: 80%;
+  max-height: 90%;
+  border-radius: 15px 15px 0 0;
+  background-color: #ffffff;
+}
+
+.details:not(:last-child) {
+  width: 100%;
+  margin-bottom: 40px;
+}

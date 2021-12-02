@@ -1,0 +1,15 @@
+.UserHeader {
+  margin: auto 0;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin: auto 15px;
+}
+
+.text {
+  font-size: 13px;
+  font-weight: 500;
+  color: #23304c;
+}

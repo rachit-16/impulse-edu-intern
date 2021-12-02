@@ -1,0 +1,22 @@
+.Notification {
+  margin: auto 30px;
+  background-color: #999;
+  display: flex;
+  align-items: center;
+  border-radius: 19px;
+  padding: 5px 8px;
+  background: linear-gradient(136.67deg, #ff409a 8.34%, #c438ef 95.26%);
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.icon {
+  color: #23304c;
+}
+
+.count {
+  margin: 0 3px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #23304c;
+}
